@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    height: 100%;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.article{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.article h
+{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+}
+.article p{
+    line-height: 1.5;
+    font-size: .9rem;
+    text-align: center;
+    padding: 6px;
+}
+
+.trial{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 24px;
+    background-color:hsl(248, 32%, 49%);
+    font-size: medium;
+    padding: 18px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+    box-shadow: 0 6px 0 0  rgba(0, 0, 0, 0.26);
+}
+
+
+
+.form-field span{
+    font-weight: bold;
+    
+}
+
+form{
+    display: grid;
+    background-color: white;
+    border-radius: 8px;
+    padding: 19px;
+
+    
+}
+
+input{
+    margin-bottom: 12px;
+    padding: 12px;
+    font-weight: bold;
+    
+    
+}
+
+button{
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    box-shadow: 0 4px 0 0 hsla(154, 56%, 40%, 0.795) ;
+}
+
+.condition{
+    font-size: x-small;
+    text-align: center;
+    letter-spacing: .8px;
+}
+.condition span{
+    color: rgba(247, 0, 0, 0.737);
+}
+
+@media(min-width: 768px){
+    body{
+        background-image: url(images/bg-intro-desktop.png);
+        background-size: cover;
+    }
+    .parent{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+    }
+    .article h{
+        font-size: 3rem;
+    }
+    .article p{
+        font-size: 1.2rem;
+        padding: 12px;
+    }
+    .trial{
+        font-size: 1rem;
+        padding: 15px;
+    }
+    form{
+        width: 400px;
+    }
+    input{
+        font-size: 1rem;
+    }
+}
