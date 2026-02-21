@@ -75,4 +75,4 @@ While working on this project, I improved my skills in:
 
 
 
-![Project Screenshot](./screenshot.png)
+
